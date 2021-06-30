@@ -13,10 +13,13 @@ const PostComponent = (props) => {
 						<h5 className="date">{props.date}1</h5>
 					</div>
 				</div>
+				</a>
 				<div className="blog-desc">
 					<div className="text-content">
+					      <a href={`https://${props.link}`} target="_blank">
 						<h5 className="blog-name">{props.heading}</h5>
-						<a>
+                                                </a>
+						<a href={`https://${props.link}`} target="_blank">
 							<h5 className="blog-link">{props.link}</h5>
 						</a>
 						<h5 className="blog-desc"> {props.desc} </h5>
@@ -43,7 +46,7 @@ const PostComponent = (props) => {
 						</svg>
 					</div>
 				</div>
-			</a>
+			 
 		</div>
 	);
 };
