@@ -37,7 +37,7 @@
   GET /data/
 ```
 
-### Contribution ⚛ 
+## Contribution ⚛ 
 
 #### I have laid the foundation but together we can make it big, you can contribute in : **
 
